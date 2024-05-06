@@ -45,10 +45,10 @@ class ProfilePageUI extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(height: 10),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Column(
+                         Column(
                           children: [
                             Text(
                               'Posts',
@@ -61,7 +61,7 @@ class ProfilePageUI extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(width: 10),
+                        SizedBox(width: 10),
                         Column(
                           children: [
                             Text(
@@ -75,7 +75,7 @@ class ProfilePageUI extends StatelessWidget {
                             ),
                           ],
                         ),
-                        const SizedBox(width: 10),
+                        SizedBox(width: 10),
                         Column(
                           children: [
                             Text(
@@ -97,8 +97,8 @@ class ProfilePageUI extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 20),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
+          const Padding(
+            padding: EdgeInsets.all(8.0),
             child: Text('bio...'),
           ),
           Padding(
@@ -111,7 +111,7 @@ class ProfilePageUI extends StatelessWidget {
               ),
               child: TextButton(
                 onPressed: () {},
-                child: Text(
+                child: const Text(
                   'EDIT PROFILE',
                   style: TextStyle(color: Colors.white),
                 ),
@@ -121,9 +121,9 @@ class ProfilePageUI extends StatelessWidget {
           const Divider(),
           Expanded(
             child: SingleChildScrollView(
-              child: Container(
+              child: SizedBox(
                 height: MediaQuery.of(context).size.height, // Adjust height as needed
-                child: ImageGrid(),
+                child: const ImageGrid(),
               ),
             ),
           ),
