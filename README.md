@@ -1,14 +1,22 @@
 # social_appp
 
-A new Flutter project.
+A new Social Media project.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-
-![login.png](login.png)
-![register.png](register.png)
-![profile.png](profile.png)
-![homepage.png](homepage.png)
-![newPost.png](newPost.png)
+<table>
+    <thead>
+        <tr>
+            <td>Homepage</td>
+<td>Profile Page</td>
+<td>Login Page</td>
+<td>New Post</td>
+        </tr>
+    </thead>
+  <tr>
+    <td><img src="screenshots/homepage.png" alt="Screen1" width="200"/></td>
+    <td><img src="screenshots/profile.png" alt="Screen2" width="200"/></td>
+    <td><img src="screenshots/login.png" alt="Screen2" width="200"/></td>
+    <td><img src="screenshots/newPost.png" alt="Screen2" width="200"/></td>
+  </tr>
+</table>
